@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+#brand{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to right, yellow,red);
+    padding:15px;   
+    border-radius: 30px;
+
+}
+
+#navbar a{
+    margin-left: 0;
+    color: rgb(12, 1, 1);
+    font-weight: 600;
+    padding: 10px;
+    
+}
+img{
+   
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#car{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:whitesmoke;
+}
+
+@keyframes example {
+    0% {
+        transform: translateX(900px);
+    }
+    100%{
+        transform: translateX(40px);
+    }
+  }
+  #head{
+   text-align: center;
+    
+  }
+h1,h3{
+    letter-spacing: 3px;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+button{
+    padding-right: 10px;
+}
+h4{
+    text-align: center;
+    font-family: fantasy;
+}
